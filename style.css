@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skye {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.house{
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.green{
+    width: 100%;
+    height: 15px;
+    background-color: #58f758;
+    position: absolute;
+    border: 1px solid #58f758;
+    top: 260px;
+}
+.road1{
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    height: 160px;
+}
+.black{
+    width: 100%;
+    height: 70px;
+    background-color: #313030;
+    position: absolute;
+    border: 1px solid #313030;
+    top: 430px;
+}
+.road2{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 150px;
+}
+.bird{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 13%; 
+}
+.bird1{
+    position: absolute;
+    top: 30px;
+    right: 410px;
+    height: 16vh; 
+} 
+.aeroplane{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 260px;
+    animation-name: aeroplane;
+    animation-duration:3s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes aeroplane{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.helicopter{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 230px;
+    animation-name: helicopter;
+    animation-duration:4s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes helicopter{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.backman{
+    position: absolute;
+    top:135px;
+    right: 0px;
+    width: 120px;
+    animation-name: backman;
+    animation-duration:10s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes backman{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.woman{
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    width: 120px;
+    animation-name: woman;
+    animation-duration:10s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes woman{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.bike{
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    width: 120px;
+    animation-name: bike;
+    animation-duration:3s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes bike{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.taxi{
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    width: 160px;
+    animation-name: taxi;
+    animation-duration:4s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes taxi{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.truck{
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    width: 160px;
+    animation-name: truck;
+    animation-duration:3s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes truck{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1300px);
+    }
+}
+.taximan{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 140px;
+     animation-name: taximan;
+    animation-duration:2s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes taximan{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.bikeman{
+    position: absolute;
+    top: 570px;
+    left: 0px;
+    width: 90px;
+    animation-name: bikeman;
+    animation-duration:5s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes bikeman{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.sport{
+    position: absolute;
+    top: 510px;
+    left: 0px;
+    width: 150px;
+    animation-name: sport;
+    animation-duration:3s ;
+    animation-timing-function: linear;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes sport{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.truck1{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 140px;
+    animation-name: truck1;
+    animation-duration:4s ;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:none ; 
+}
+@keyframes truck1{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.streetlight{
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    width: 90px;
+}
+.oneway{
+     position: absolute;
+    top: 310px;
+    left: 190px;
+    width: 180px;
+}
+.streetlight1{
+    position: absolute;
+    top: 340px;
+    left: 310px;
+    width: 90px;
+}
+.streetlight2{
+    position: absolute;
+    top: 340px;
+    right: 350px;
+    width: 90px;
+}
+.oneway1{
+     position: absolute;
+    top: 310px;
+    right: 190px;
+    width: 190px;
+}
+.streetlight3{
+    position: absolute;
+    top: 340px;
+    right: 130px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
